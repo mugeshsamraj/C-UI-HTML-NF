@@ -1,0 +1,108 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+h1,{
+  display: block;
+  font-size: 4em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2,h3,h4,h5,h6{
+  display: block;
+  font-size: 3em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p{
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.header {
+  width: 100vw;
+  background-image: url("/background.jpg");
+  display: flex;
+  object-fit: cover;
+}
+.header .left img{
+  width: 9rem;
+  height: 7rem;
+  padding: 0 0 40rem 0;
+}
+
+.header .right{
+flex-direction: row;
+}
+
+.header .right ul{
+  display: flex;
+  text-decoration: none;
+  flex-direction: right;
+}
+
+.header .header-content{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  margin: -15px 0 0 -15px;
+}
+.enjoy{
+  display: flex;
+  color: white;
+  border: 2rem 0 solid;
+  padding: 10em;
+  
+}
+.enjoy .left{
+  align-items: center;
+
+}
+.enjoy .right{
+
+}
+.download{
+  display: flex;
+  color: white;
+  border: 2rem 0 solid;
+  padding: 10em;
+}
+.watch{
+  display: flex;
+  color: white;
+  border: 2rem 0 solid;
+  padding: 10em;
+}
+.create{
+  display: flex;
+  color: white;
+  border: 2rem 0 solid;
+  border-color: blue;
+  padding: 10em;
+}
+.frenquently{
+  display: grid;
+  color: white;
+  justify-content: center;
+}
+.frenquently ul{
+  display: grid;
+  text-decoration: none;
+  align-items: space-around;
+}
